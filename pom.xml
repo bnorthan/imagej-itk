@@ -12,10 +12,9 @@
 		<relativePath />
 	</parent>
   
-  	<groupId>imagej-tutorials</groupId>
- 	<artifactId>imagej-itk</artifactId>
+  	<artifactId>imagej-itk</artifactId>
   	<packaging>jar</packaging>
-  	<name>deconware-tests</name>
+  	<name>imagej-itk</name>
   	<version>1.0.0-SNAPSHOT</version>
   	
   	<properties>

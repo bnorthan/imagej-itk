@@ -1,6 +1,6 @@
 package com.truenorth.itk.commands;
 
-import imagej.command.Command;
+import org.scijava.command.Command;
 
 import org.scijava.plugin.Plugin;
 import org.scijava.ItemIO;
@@ -11,10 +11,10 @@ import net.imglib2.type.numeric.RealType;
 import net.imglib2.img.Img;
 import net.imglib2.meta.ImgPlus;
 
-import imagej.data.Dataset;
-import imagej.data.DatasetService;
+import net.imagej.Dataset;
+import net.imagej.DatasetService;
 
-import imagej.ops.OpService;
+import net.imagej.ops.OpService;
 
 @Plugin(type=Command.class, menuPath="Plugins>Deconvolution>ITK Richardson Lucy")
 public class RichardsonLucyITKCommandSimple <T extends RealType<T> & NativeType<T>> implements Command
